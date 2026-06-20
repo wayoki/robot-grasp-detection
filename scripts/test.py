@@ -3,7 +3,7 @@ import os
 import random
 from pathlib import Path
 
-DATASET_DIR = Path.home() / "Documents" / "Repositories" / "robot-grasp-detection" / "data" / "processed" / "dataset"
+DATASET_DIR = Path(__file__).resolve().parents[1] / "dataset"
 VALID_IMAGES_DIR = DATASET_DIR / "valid" / "images"
 VALID_LABELS_DIR = DATASET_DIR / "valid" / "labels"
 TEST_IMAGES_DIR = DATASET_DIR / "test" / "images"
