@@ -3,3 +3,4 @@ opencv-python==4.13.0.92
 matplotlib==3.11.0
 PyYAML==6.0.3
 numpy==2.4.6
+torch==2.12.1
