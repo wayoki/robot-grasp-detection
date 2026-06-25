@@ -8,7 +8,3 @@ runs/
 
 yolo11n.pt
 yolo26n.pt
-
-outputs/roi/
-outputs/bbox/
-outputs/logs/
