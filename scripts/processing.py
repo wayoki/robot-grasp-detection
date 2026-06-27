@@ -98,7 +98,7 @@ for image_class in cell + sensor:
         "k": round(k, 2),
         "grasp_width": round(grasp_width, 2),
     })
-with open(f"{ROOT_DIR}/outputs/processed/parameters.csv", "w", newline="") as f:
+with open(f"{ROOT_DIR}/outputs/parameters.csv", "w", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=parameters[0].keys())
     writer.writeheader()
     writer.writerows(parameters)

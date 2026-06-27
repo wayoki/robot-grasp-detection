@@ -1,0 +1,4 @@
+model,path,size_mb,avg_inference_ms,fps,mAP50,mAP50-95
+PT FP32,models/yolo_model.pt,5.25,5.07,197.05,0.97,0.943
+ONNX FP32,models/yolo_model.onnx,10.11,5.73,174.41,0.9533,0.922
+ONNX INT8,models/yolo_model_int8.onnx,2.95,8.16,122.6,0.0,0.0
